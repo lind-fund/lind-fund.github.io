@@ -1,0 +1,63 @@
+/*--- DEFUALTS ---*/
+:root {
+/* fonts */
+
+/* colors */
+--black-color: #0d0d0d;
+--dkgrey-color: #404040;
+--mdgrey-color: #737373;
+--grey-color: #a6a6a6;
+--ltgrey-color: #d9d9d9;
+--white-color: #FCFCFC;
+
+
+
+
+
+/* sizes */
+
+}
+
+
+body {
+margin: 0;
+background-color: var(--black-color);
+}
+
+#mainBody{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--white-color);
+}
+
+#colors {
+    margin: 1rem;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 1px rgba(115,115,115,.1);
+    
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+.card-color {
+    background-color: #0d0d0d;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1rem;
+    min-width: 50px;
+    min-height: 65px;
+}
