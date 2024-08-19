@@ -1,8 +1,11 @@
 /*--- DEFUALTS ---*/
 :root {
 /* fonts */
+--font-body: "Source Serif 4", serif;
+--font-headline: "Fira Sans", sans-serif;
 
 /* colors */
+--text-default: #FCFCFC;
 --black-color: #0d0d0d;
 --dkgrey-color: #404040;
 --mdgrey-color: #737373;
@@ -10,25 +13,66 @@
 --ltgrey-color: #d9d9d9;
 --white-color: #FCFCFC;
 
-
-
-
-
 /* sizes */
 
 }
 
-
+/*----- DEFAULTS -----*/
 body {
-margin: 0;
-background-color: var(--black-color);
+    font-family: var(--font-body);
+    color: var(--text-default);
+    margin: 0;
+    background-color: var(--black-color);
 }
 
+h1 {
+    font-family: var(--font-headline);
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: var(--font-headline);
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: var(--font-headline);
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+h4 {
+    font-family: var(--font-headline);
+    font-size:1em ;
+    font-weight: 100;
+}
+
+h5 {
+    font-family: var(--font-body);
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+h6 {
+    font-family: var(--font-body);
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+p {
+    font-family: var(--font-body);
+    font-size: 1.15em;
+    font-weight: 200;
+}
+/*---- style page ----*/
 #mainBody{
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: var(--white-color);
+    color: var(--black-color);
 }
 
 #colors {
@@ -55,7 +99,6 @@ background-color: var(--black-color);
 }
 
 .card-color {
-    background-color: #0d0d0d;
     border-radius: 10px 10px 0px 0px;
     padding: 1rem;
     min-width: 50px;
