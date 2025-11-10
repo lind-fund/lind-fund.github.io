@@ -69,11 +69,8 @@ p {
 
 ul {
     list-style-type: none;
-}
-
-li{
-    padding-left: 0;
-    margin-left: 0;
+    padding-left: 1em;
+    margin:0;
 }
 
 a {
@@ -81,7 +78,8 @@ a {
     font-size: 1.25em;
     font-weight: 300;
     text-decoration: none;
-    color: var(--white-color)
+    color: var(--white-color);
+    padding: .5em;
 }
 
 a:hover {
@@ -89,6 +87,15 @@ a:hover {
     color: var(--ltgrey-color);
     font-weight: 500;
     
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+    padding: 1em;
 }
 
 
@@ -130,6 +137,10 @@ a:hover {
     padding: 1rem;
     min-width: 50px;
     min-height: 65px;
+}
+
+.card-color-name {
+    padding: .25em;
 }
 
 #menu {
