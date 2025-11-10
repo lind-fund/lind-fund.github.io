@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "save-dev": "^0.0.1-security",
+    "uuid": "^13.0.0"
+  },
+  "name": "lind-fund.github.io",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lind-fund/lind-fund.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lind-fund/lind-fund.github.io/issues"
+  },
+  "homepage": "https://github.com/lind-fund/lind-fund.github.io#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
